@@ -1,0 +1,47 @@
+
+”
+;
+android*http://schemas.android.com/apk/res/androidA
+4
+app'http://schemas.android.com/apk/res-autoARelativeLayout"`
+*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ"a
+*http://schemas.android.com/apk/res/androidlayout_heightmatch_parent"(õ„2:0ÿÿÿÿÿÿÿÿÿ*ù
+ğTextView"`
+*http://schemas.android.com/apk/res/androidlayout_widthwrap_content"(ô„2:0şÿÿÿÿÿÿÿÿ"a
+*http://schemas.android.com/apk/res/androidlayout_heightwrap_content"(õ„2:0şÿÿÿÿÿÿÿÿ"Z
+*http://schemas.android.com/apk/res/androidlayout_centerHorizontaltrue"(ƒ„2:@"L
+*http://schemas.android.com/apk/res/androidtextSize23sp"(•„2:h‚."S
+*http://schemas.android.com/apk/res/android	textColor#121212"(˜„2:P’¤Èø"]
+*http://schemas.android.com/apk/res/androidid@+id/titulo"(Ğ„2
+êƒ¨ø	id/titulo0"A
+*http://schemas.android.com/apk/res/androidtextReportar(Ï‚„#*Ç
+¾EditText"g
+*http://schemas.android.com/apk/res/androidlayout_below@+id/titulo"(…ƒ„2
+êƒ¨ø	id/titulo0"”
+*http://schemas.android.com/apk/res/androidhint[Indique el motivo del reporte y el nombre del usuario de lo contrario de la opcion cancelar(Ğ‚„"`
+*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ"R
+*http://schemas.android.com/apk/res/androidlayout_height88dp"(õ„2:h°"W
+*http://schemas.android.com/apk/res/androidtextColorHint#BDBABA"(š„2:Pºõöı"D
+*http://schemas.android.com/apk/res/androidems10"(Ø‚„2:0
+"]
+*http://schemas.android.com/apk/res/androidid@+id/report"(Ğ„2
+ù‚¨ø	id/report0+*ˆ
+ÿ	ImageView"g
+*http://schemas.android.com/apk/res/androidlayout_below@+id/report""(…ƒ„2
+ù‚¨ø	id/report0"€
+*http://schemas.android.com/apk/res/androidsrc@android:drawable/btn_dialog""(™‚„2&
+$—€ android:drawable/btn_dialog0"P
+*http://schemas.android.com/apk/res/androidlayout_width49dp""(ô„2:hb"Q
+*http://schemas.android.com/apk/res/androidlayout_height41dp""(õ„2:hR"a
+*http://schemas.android.com/apk/res/androidid@+id/cancelar""(Ğ„2
+ï€¨øid/cancelar0"6*ø
+ï	ImageView"g
+*http://schemas.android.com/apk/res/androidlayout_below@+id/report"*(…ƒ„2
+ù‚¨ø	id/report0"˜
+*http://schemas.android.com/apk/res/androidsrc(@android:drawable/checkbox_on_background"*(™‚„22
+0€ 'android:drawable/checkbox_on_background0"P
+*http://schemas.android.com/apk/res/androidlayout_width61dp"*(ô„2:hz"Q
+*http://schemas.android.com/apk/res/androidlayout_height39dp"*(õ„2:hN"Z
+*http://schemas.android.com/apk/res/androidlayout_alignParentRighttrue"*(ƒ„2:@"]
+*http://schemas.android.com/apk/res/androidid@+id/enviar"*(Ğ„2
+À¨ø	id/enviar0*BA

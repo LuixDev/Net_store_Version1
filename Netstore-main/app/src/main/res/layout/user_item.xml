@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="10dp"
+    android:id="@+id/card123"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="3dp">
+
+    <LinearLayout
+        android:id="@+id/iz"
+        android:layout_width="403dp"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="64dp"
+            android:layout_height="62dp"
+            android:layout_marginRight="10dp"
+            android:scaleType="centerCrop"
+            android:src="@android:mipmap/sym_def_app_icon" />
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="311dp"
+            android:layout_height="95dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginLeft="15dp"
+
+                android:text="username"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:translationX="22dp" />
+
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/username"
+                android:layout_marginLeft="18dp"
+                android:layout_toRightOf="@+id/imageView3"
+
+                android:text="Direccion" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2"
+                android:layout_marginLeft="18dp"
+                android:layout_toRightOf="@+id/imageView4"
+
+
+                android:text="Categoria"
+                android:translationY="2dp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                android:layout_below="@+id/imageView4"
+                android:translationX="2dp"
+
+                android:translationY="6dp"
+                app:srcCompat="@drawable/telefono" />
+
+            <TextView
+                android:id="@+id/Tel1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView3"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:layout_toRightOf="@id/imageView2"
+                android:text="Telefono"
+                android:translationX="4dp"
+                android:translationY="2dp" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/imageView3"
+                android:translationX="2dp"
+                android:translationY="5dp"
+                app:srcCompat="@drawable/category" />
+
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_below="@+id/username"
+                android:translationX="2dp"
+                app:srcCompat="@drawable/ubicacion" />
+
+            <me.zhanghai.android.materialratingbar.MaterialRatingBar
+                android:id="@+id/rating_item_rating"
+                style="@style/Widget.MaterialRatingBar.RatingBar.Indicator.Small"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/username"
+
+                android:translationX="30dp"
+                android:translationY="4dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

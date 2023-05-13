@@ -1,0 +1,23 @@
+
+®
+;
+android*http://schemas.android.com/apk/res/androidBmenu*°
+§item"@
+*http://schemas.android.com/apk/res/androidtitleInicio(áƒ„"]
+*http://schemas.android.com/apk/res/androidid@+id/inicio"(Ğ„2
+é¨ø	id/inicio0"*Â
+¹item"F
+*http://schemas.android.com/apk/res/androidtitlenotificacion(áƒ„"i
+*http://schemas.android.com/apk/res/androidid@+id/Notificacion"
+(Ğ„2
+‹€¨øid/Notificacion0
+(*º
+±item"J
+*http://schemas.android.com/apk/res/androidtitleReportar usuario(áƒ„"]
+*http://schemas.android.com/apk/res/androidid@+id/report"(Ğ„2
+ù‚¨ø	id/report0,*³
+ªitem"A
+*http://schemas.android.com/apk/res/androidtitleReseÃ±a(áƒ„"_
+*http://schemas.android.com/apk/res/androidid@+id/reseÃ±a"(Ğ„2
+ú‚¨ø
+id/reseÃ±a0"B

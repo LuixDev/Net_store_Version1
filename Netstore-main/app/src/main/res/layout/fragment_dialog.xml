@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rysolf.netstore.dialogos.DialogFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reportar"
+        android:textColor="#121212"
+        android:layout_centerHorizontal="true"
+        android:textSize="23sp" />
+
+    <EditText
+        android:id="@+id/report"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_below="@+id/titulo"
+        android:ems="10"
+
+        android:hint="Indique el motivo del reporte y el nombre del usuario de lo contrario de la opcion cancelar"
+        android:textColorHint="#BDBABA" />
+
+    <ImageView
+        android:id="@+id/cancelar"
+        android:layout_width="49dp"
+        android:layout_height="41dp"
+        android:layout_below="@+id/report"
+        android:src="@android:drawable/btn_dialog" />
+
+    <ImageView
+        android:id="@+id/enviar"
+        android:layout_width="61dp"
+        android:layout_height="39dp"
+        android:layout_below="@+id/report"
+        android:layout_alignParentRight="true"
+        android:src="@android:drawable/checkbox_on_background" />
+
+
+
+</RelativeLayout>

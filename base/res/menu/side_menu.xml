@@ -1,0 +1,32 @@
+
+®
+;
+android*http://schemas.android.com/apk/res/android$menu*è
+ßgroup"V
+*http://schemas.android.com/apk/res/androidcheckableBehaviorsingle"(àƒ„2:0*ø
+ïitem"u
+*http://schemas.android.com/apk/res/androidtitle@string/nav_home_text"	(áƒ„2 
+ŒÈøstring/nav_home_text0"Œ
+*http://schemas.android.com/apk/res/androidicon!@drawable/ic_baseline_settings_24"	(‚€„2,
+*‘ ø drawable/ic_baseline_settings_240"a
+*http://schemas.android.com/apk/res/androidid@+id/nav_home"	(Ğ„2
+±‚¨øid/nav_home0	5*Å
+¼item"M
+*http://schemas.android.com/apk/res/androidtitleBuscador de usuario(áƒ„"|
+*http://schemas.android.com/apk/res/androidicon@drawable/ic_person_black"(‚€„2$
+" ødrawable/ic_person_black0"g
+*http://schemas.android.com/apk/res/androidid@+id/nav_account"(Ğ„2
+­‚¨øid/nav_account03*¹
+°item"Q
+*http://schemas.android.com/apk/res/androidtitleBuscador de mapa google(áƒ„"f
+*http://schemas.android.com/apk/res/androidicon@drawable/mapa"(‚€„2
+¥ ødrawable/mapa0"m
+*http://schemas.android.com/apk/res/androidid@+id/nav_googlemaps"(Ğ„2
+¯‚¨øid/nav_googlemaps07*ş
+õitem"{
+*http://schemas.android.com/apk/res/androidtitle@string/clo_account_text"(áƒ„2#
+!ª€Èøstring/clo_account_text0"†
+*http://schemas.android.com/apk/res/androidicon@drawable/ic_baseline_login_24"(‚€„2)
+' ødrawable/ic_baseline_login_240"g
+*http://schemas.android.com/apk/res/androidid@+id/clo_account"(Ğ„2
+Š¨øid/clo_account08/$

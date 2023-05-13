@@ -1,0 +1,25 @@
+
+Ø
+;
+android*http://schemas.android.com/apk/res/android$menu*’
+‰group"V
+*http://schemas.android.com/apk/res/androidcheckableBehaviorsingle"(àƒ„2:0*µ
+¬item"G
+*http://schemas.android.com/apk/res/androidtitleConfiguracion(áƒ„"|
+*http://schemas.android.com/apk/res/androidicon@drawable/configuraciones"	(‚€„2$
+"€ ødrawable/configuraciones0"]
+*http://schemas.android.com/apk/res/androidid@+id/inicio"	(Ğ„2
+é¨ø	id/inicio0	-*›
+’item"E
+*http://schemas.android.com/apk/res/androidtitleCerca de mi(áƒ„"f
+*http://schemas.android.com/apk/res/androidicon@drawable/mapa"(‚€„2
+¥ ødrawable/mapa0"[
+*http://schemas.android.com/apk/res/androidid
+@+id/cerca"(Ğ„2
+ù€¨øid/cerca0+*Ñ
+Èitem"F
+*http://schemas.android.com/apk/res/androidtitleNotificacion(áƒ„"Š
+*http://schemas.android.com/apk/res/androidicon @drawable/ic_notifications_black"(‚€„2+
+) ødrawable/ic_notifications_black0"k
+*http://schemas.android.com/apk/res/androidid@+id/configuracion"(Ğ„2
+”¨øid/configuracion0,/$

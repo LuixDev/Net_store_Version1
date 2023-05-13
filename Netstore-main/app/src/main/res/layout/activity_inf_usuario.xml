@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rysolf.netstore.InfUsuario">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolb1"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="-40dp"
+        android:background="@color/colorPrimaryDark"
+
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:translationY="36dp"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:titleTextColor="#090909"></androidx.appcompat.widget.Toolbar>
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="129dp"
+        android:layout_height="107dp"
+        android:layout_marginTop="99dp"
+
+        android:src="@android:mipmap/sym_def_app_icon"
+        android:translationY="-10dp" />
+
+    <Button
+        android:id="@+id/chat"
+        android:layout_width="32dp"
+        android:layout_height="31dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="50dp"
+        android:background="@drawable/comentario"
+
+
+        android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_toRightOf="@id/profile_image"
+        android:text="nombre"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="22sp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:civ_border_width="10dp"
+        app:civ_border_color="#05df29"
+        android:id="@+id/img_on"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_toEndOf="@+id/profile_image"
+        android:visibility="gone"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        app:civ_border_width="10dp"
+        app:civ_border_color="#bfbfbf"
+        android:id="@+id/img_off"
+        android:src="@mipmap/ic_launcher"
+        android:layout_below="@+id/username"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="-15dp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_toEndOf="@+id/profile_image"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/imageView5"
+        android:text="Direccion" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/imageView5"
+        android:text="Categoria"
+        android:translationY="4dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_marginLeft="12dp"
+        android:layout_toRightOf="@+id/imageView5"
+        android:text="Telefono"
+        android:translationY="8dp" />
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_below="@+id/textView5"
+
+        android:background="@color/colorPrimaryDark"
+        android:translationY="11dp"
+        app:tabIndicatorColor="#fff"
+        app:tabSelectedTextColor="#fff"
+        app:tabTextColor="#fff" />
+
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_below="@+id/tab_layout"
+        android:translationY="10dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_below="@+id/textView3"
+
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:translationY="8dp"
+        app:srcCompat="@drawable/telefono" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_below="@+id/textView2"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:translationY="4dp"
+        app:srcCompat="@drawable/category" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+
+        android:layout_below="@+id/username"
+        android:layout_marginLeft="2dp"
+        android:layout_toRightOf="@+id/profile_image"
+
+        app:srcCompat="@drawable/ubicacion" />
+
+</RelativeLayout>

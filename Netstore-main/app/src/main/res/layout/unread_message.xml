@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@android:mipmap/sym_def_app_icon" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_toRightOf="@id/profile_image"
+        android:text="username"
+        android:textColor="#3E3939"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textmsm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:text="Envio un nuevo mensaje" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textmsm"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="0dp"
+
+        android:layout_toRightOf="@+id/profile_image"
+        android:text="Categoria"
+        android:textColor="#373232"
+        android:textColorHint="#131212"
+        android:textSize="16sp" />
+
+
+    <TextView
+
+        android:id="@+id/Punto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username"
+        android:layout_alignRight="@id/Punto"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/count"
+        android:layout_width="16dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_circle"
+
+        android:gravity="center"
+        android:text="5"
+        android:textColor="@android:color/white"
+        android:textSize="10dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/noresult"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rysolf.netstore.busqueda">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:background="@color/colorPrimaryDark">
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:text="No se ha encontrado ningun resultado"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true" />
+
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/buscador"
+        android:layout_width="207dp"
+        android:layout_height="6dp"
+
+
+        android:layout_marginTop="16dp"
+
+
+        android:background="@drawable/search_layout"
+        android:ems="10"
+        android:focusable="true"
+
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/lato_light"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="10dp"
+        android:textSize="16sp"
+        android:translationX="20dp"
+        android:visibility="gone"
+        app:iconifiedByDefault="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:queryHint="Search">
+
+    </androidx.appcompat.widget.SearchView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_list12"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar2"
+        android:layout_weight="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:hint="Search"
+        tools:layout_editor_absoluteY="100dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+</RelativeLayout>

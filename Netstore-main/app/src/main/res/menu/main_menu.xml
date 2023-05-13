@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ShowIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/inicio"
+            android:icon="@drawable/configuraciones"
+            android:title="Configuracion" />
+        <item
+            android:id="@+id/cerca"
+            android:icon="@drawable/comentario"
+            android:title="Publicacion" />
+        <item
+            android:id="@+id/configuracion"
+            android:icon="@drawable/ic_notifications_black"
+            android:title="Notificacion" />
+    </group>
+</menu>

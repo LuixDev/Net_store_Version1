@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ShowIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/nav_home_text" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_person_black"
+            android:title="Buscador de usuario" />
+        <item
+            android:id="@+id/nav_googlemaps"
+            android:icon="@drawable/mapa"
+            android:title="Buscador de mapa google" />
+        <item
+            android:id="@+id/clo_account"
+            android:icon="@drawable/ic_baseline_login_24"
+            android:title="@string/clo_account_text" />
+    </group>
+</menu>

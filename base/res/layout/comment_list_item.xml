@@ -1,0 +1,35 @@
+
+
+;
+android*http://schemas.android.com/apk/res/android*RelativeLayout"`
+*http://schemas.android.com/apk/res/androidlayout_widthmatch_parent"(ô„2:0ÿÿÿÿÿÿÿÿÿ"a
+*http://schemas.android.com/apk/res/androidlayout_heightwrap_content"(õ„2:0şÿÿÿÿÿÿÿÿ*¯
+¦,de.hdodenhof.circleimageview.CircleImageView"W
+*http://schemas.android.com/apk/res/androidlayout_marginBottom12dp"(ú„2:h"ƒ
+*http://schemas.android.com/apk/res/androidsrc@drawable/profile_placeholder"(™‚„2(
+&Å ødrawable/profile_placeholder0"P
+*http://schemas.android.com/apk/res/androidlayout_width40dp"(ô„2:hP"Q
+*http://schemas.android.com/apk/res/androidlayout_height40dp"(õ„2:hP"U
+*http://schemas.android.com/apk/res/androidlayout_marginLeft12dp"(÷„2:h"T
+*http://schemas.android.com/apk/res/androidlayout_marginTop12dp"(ø„2:h"X
+*http://schemas.android.com/apk/res/androidlayout_alignParentToptrue"(Œƒ„2:@"k
+*http://schemas.android.com/apk/res/androidid@+id/comment_image"(Ğ„2
+¨øid/comment_image07*Û
+ÒTextView"`
+*http://schemas.android.com/apk/res/androidlayout_widthwrap_content"(ô„2:0şÿÿÿÿÿÿÿÿ"a
+*http://schemas.android.com/apk/res/androidlayout_heightwrap_content"(õ„2:0şÿÿÿÿÿÿÿÿ"U
+*http://schemas.android.com/apk/res/androidlayout_marginLeft12dp"(÷„2:h"x
+*http://schemas.android.com/apk/res/androidlayout_alignTop@+id/comment_image"(ˆƒ„2
+¨øid/comment_image0"q
+*http://schemas.android.com/apk/res/androidid@+id/comment_username"(Ğ„2
+“¨øid/comment_username0"=
+*http://schemas.android.com/apk/res/androidtextUser(Ï‚„*ê
+áTextView"`
+*http://schemas.android.com/apk/res/androidlayout_widthwrap_content"!(ô„2:0şÿÿÿÿÿÿÿÿ"a
+*http://schemas.android.com/apk/res/androidlayout_heightwrap_content"!(õ„2:0şÿÿÿÿÿÿÿÿ"U
+*http://schemas.android.com/apk/res/androidlayout_marginLeft12dp"!(÷„2:h"{
+*http://schemas.android.com/apk/res/androidlayout_alignBottom@+id/comment_image"!(Šƒ„2
+¨øid/comment_image0"o
+*http://schemas.android.com/apk/res/androidid@+id/comment_message"!(Ğ„2
+¨øid/comment_message0"K
+*http://schemas.android.com/apk/res/androidtextLoading Comment...(Ï‚„!-*
